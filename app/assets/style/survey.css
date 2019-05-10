@@ -1,0 +1,9 @@
+body {
+    background-image: url(../images/space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,h2,h3,h4,a {
+    color: white;
+}
