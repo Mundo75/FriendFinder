@@ -1,5 +1,5 @@
 
-let friendsList = [{
+let friends = [{
     "friendName":"Sheldon Cooper",
   
     "friendPhoto":"../assets/images/sheldon.jpg",
@@ -61,4 +61,4 @@ let friendsList = [{
   }];
   
   
-  module.exports = friendsList;
+  module.exports = friends;
