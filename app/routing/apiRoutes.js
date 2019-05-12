@@ -5,9 +5,8 @@ module.exports = function(app) {
 
 
 
-	//get all friends and calculate answers to determine best match
-
-	app.get("/api/friends", function(request, response) {
+    //get all friends and calculate answers to determine best match
+    app.get("/api/friends", function(request, response) {
 
 		response.json(friend);
 
