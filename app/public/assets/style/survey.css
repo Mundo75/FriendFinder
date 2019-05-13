@@ -2,8 +2,23 @@ body {
     background-image: url(../images/space.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+};
+
+#matchName {
+    color: black;
+    font-size: 30px;
+    
+
+}
+
+#newBestFriend {
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 h1,h2,h3,h4,a {
     color: white;
 }
+

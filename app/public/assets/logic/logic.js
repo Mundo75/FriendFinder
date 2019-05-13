@@ -37,7 +37,7 @@ $("#submit").on("click", function(event) {
 
     if(validateForm())	{
 
-        let newPerson = {
+        let newFriend = {
 
             "friendName": $("#name").val().trim(),
 
@@ -56,11 +56,11 @@ $("#submit").on("click", function(event) {
 
         };
 
-        console.log(newPerson);
+        console.log(newFriend);
 
-        var currentURL = window.location.origin;
+        let currentURL = window.location.origin;
 
-        $.post(currentURL + "/api/friends", newPerson, function(data) {
+        $.post(currentURL + "/api/friends", newFriend, function(data) {
 
             //popup new friend bootstrap modal and best match bootstrap modal 
 
@@ -68,7 +68,7 @@ $("#submit").on("click", function(event) {
 
             console.log(data.friendName, data.friendPhoto);
 
-              $("#matchName").text(data.friendName);
+            $("#matchName").text(data.friendName);
 
             $('#matchImg').attr("src", data.friendPhoto);
 
